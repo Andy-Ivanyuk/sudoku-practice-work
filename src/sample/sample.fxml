@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="button_one" layoutX="416.0" layoutY="120.0" mnemonicParsing="false" onAction="#buttonOnePressed" prefHeight="50.0" prefWidth="50.0" text="1" />
+      <Button fx:id="button_two" layoutX="471.0" layoutY="120.0" mnemonicParsing="false" onAction="#buttonTwoPressed" prefHeight="50.0" prefWidth="50.0" text="2" />
+      <Button fx:id="button_three" layoutX="526.0" layoutY="120.0" mnemonicParsing="false" onAction="#buttonThreePressed" prefHeight="50.0" prefWidth="50.0" text="3" />
+      <Button fx:id="button_four" layoutX="416.0" layoutY="175.0" mnemonicParsing="false" onAction="#buttonFourPressed" prefHeight="50.0" prefWidth="50.0" text="4" />
+      <Button fx:id="button_five" layoutX="471.0" layoutY="175.0" mnemonicParsing="false" onAction="#buttonFivePressed" prefHeight="50.0" prefWidth="50.0" text="5" />
+      <Button fx:id="button_six" layoutX="526.0" layoutY="175.0" mnemonicParsing="false" onAction="#buttonSixPressed" prefHeight="50.0" prefWidth="50.0" text="6" />
+      <Button fx:id="button_seven" layoutX="416.0" layoutY="230.0" mnemonicParsing="false" onAction="#buttonSevenPressed" prefHeight="50.0" prefWidth="50.0" text="7" />
+      <Button fx:id="button_eight" layoutX="471.0" layoutY="230.0" mnemonicParsing="false" onAction="#buttonEightPressed" prefHeight="50.0" prefWidth="50.0" text="8" />
+      <Button fx:id="button_nine" layoutX="526.0" layoutY="230.0" mnemonicParsing="false" onAction="#buttonNinePressed" prefHeight="50.0" prefWidth="50.0" text="9" />
+      <Canvas fx:id="canvas" height="369.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#canvasMouseClicked" width="369.0" />
+      <Button layoutX="471.0" layoutY="285.0" mnemonicParsing="false" onAction="#buttonClearPressed" prefWidth="50.0" text="➖" />
+   </children>
+</Pane>
